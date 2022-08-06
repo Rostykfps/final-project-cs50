@@ -1,0 +1,141 @@
+.hover
+  display: flex;
+}
+
+.nav-link {
+  color:white;
+}
+
+footer{
+background: black;
+margin-top: 20px
+}
+
+#table-footer{
+  color:white;
+}
+
+.btn-outline-success {
+  color: black;
+  border-color: grey;
+}
+
+.btn-outline-danger {
+  color: black;
+  border-color: grey;
+}
+
+.carousel-caption-kuzov{
+color: #ea091f;
+ }
+
+.carousel-item {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.div1 {
+  width: 500px;
+  background-color: #a61c2a;
+  text-align: center;
+  padding: 15px;
+}
+
+.div2 {
+  padding-left: 25px;
+  width: 450px;
+}
+
+.span {
+  color: white;
+  font-size: 1.6em;
+}
+
+input {
+  display: block;
+  padding: 8px 130px;
+}
+
+.submit {
+  background-color: #a61c2a;
+  padding: 18px;
+  width: 500px;
+}
+
+.submit input {
+  padding: 8px 20px;
+  display: inline;
+}
+
+textarea {
+  display: block;
+  width: 445px;
+  padding: 8px 100px;
+  padding: 0 10px;
+  border: 1px black
+  background: #fff;
+}
+
+ul li:hover > ul, ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.offer {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+
+
+.img_radiator {
+  padding-top: 100px
+}
+
+.img_glass {
+  padding-top: 30px
+}
+
+.catalog {
+  text:center;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.catalog2 {
+  text:center;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.catalog3 {
+  text:center;
+  margin-top: 20px;
+  margin-left: 140px;
+}
+
+#name{
+  height: 35px;
+  width: 445px;
+  padding: 0 10px;
+}
+
+#phone{
+  height: 35px;
+  width: 445px;
+  padding: 0 10px;
+}
+
+#mail{
+  height: 35px;
+  width: 445px;
+  padding: 0 10px;
+}
