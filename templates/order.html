@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block title %}
+<title>Radiator</title>
+{% endblock %}
+
+{% block body%}
+
+  <div class="container px-4 text-center">
+    <div class="row gx-5">
+      <div class="col">
+        <div class="p-3">
+        <div class="div">
+          <div class="div1"><span class="span">Форма оформлення замовлення</span></div>
+          <div class="div2">
+            <form method="post" >
+
+              <p></p><b>Прізвище та ім'я: </b> <span>*</span><input type="text-left" name="name" id="name" />
+              <p></p><b>Номер телефону: </b><span>*</span><input type="text" name="phone" id="phone"/>
+              <p></p><b>E-mail: </b><span>*</span><input type="text" name="mail" id="mail"/>
+
+              <b>Інформація про Ваш автомобіль (марка, модель, рік випуску, vin, тощо..): </b><span>*</span>
+              <textarea  rows="2" class="textarea" input type="text" name="car" id="car" placeholder = "Наприклад: AUDI Q8, 2015 р.в., VIN WAUZZZ4L7FD******"/"></textarea>
+
+              <b>Перелік необхідних запчастин (назва, номер, кількість, тощо...): </b><span>*</span>
+              <textarea  rows="4" class="textarea" input type="text" name="parts" id="parts" placeholder = "Наприклад: Фара передня ліва 1 шт"/"></textarea>
+              <br/>
+
+
+          </div>
+          <div class="submit">
+            <input class="btn-outline-success" type="submit" value="Надіслати" />
+            <input class="btn-outline-danger" type="reset" value="Очистити" />
+          </div>
+
+          </form>
+        </div>
+      </div>
+      </div>
+      <div class="col">
+        <p></p>
+        <div><img src="static/images/order.gif">
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+
+</body>
+</html>
