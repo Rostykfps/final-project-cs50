@@ -12,18 +12,19 @@
         <div class="p-3">
         <div class="div">
           <div class="div1"><span class="span">Форма оформлення замовлення</span></div>
-          <div class="div2">
-            <form method="post" >
+          <form method="post" >
+            <div class="div2">
 
-              <p></p><b>Прізвище та ім'я: </b> <span>*</span><input type="text-left" name="name" id="name" />
+
+              <p></p><b>Прізвище та ім'я: </b> <span>*</span><input type="text" name="name" id="name" />
               <p></p><b>Номер телефону: </b><span>*</span><input type="text" name="phone" id="phone"/>
               <p></p><b>E-mail: </b><span>*</span><input type="text" name="mail" id="mail"/>
 
               <b>Інформація про Ваш автомобіль (марка, модель, рік випуску, vin, тощо..): </b><span>*</span>
-              <textarea  rows="2" class="textarea" input type="text" name="car" id="car" placeholder = "Наприклад: AUDI Q8, 2015 р.в., VIN WAUZZZ4L7FD******"/"></textarea>
+              <textarea  rows="2" class="textarea" name="car" id="car" placeholder = "Наприклад: AUDI Q8, 2015 р.в., VIN WAUZZZ4L7FD******"></textarea>
 
               <b>Перелік необхідних запчастин (назва, номер, кількість, тощо...): </b><span>*</span>
-              <textarea  rows="4" class="textarea" input type="text" name="parts" id="parts" placeholder = "Наприклад: Фара передня ліва 1 шт"/"></textarea>
+              <textarea  rows="4" class="textarea" name="parts" id="parts" placeholder = "Наприклад: Фара передня ліва 1 шт"></textarea>
               <br/>
 
 
@@ -32,18 +33,18 @@
             <input class="btn-outline-success" type="submit" value="Надіслати" />
             <input class="btn-outline-danger" type="reset" value="Очистити" />
           </div>
+</form>
 
-          </form>
         </div>
       </div>
       </div>
       <div class="col">
         <p></p>
-        <div><img src="static/images/order.gif">
-        </div>
+        <div><img src="static/images/order.gif" alt="order"></div>
       </div>
     </div>
   </div>
+
 
 {% endblock %}
 
