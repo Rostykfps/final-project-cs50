@@ -1,5 +1,9 @@
-.hover
+#hover
   display: flex;
+}
+
+.body{
+background-image: url('img_background.jpg');
 }
 
 .nav-link {
@@ -13,6 +17,7 @@ margin-top: 20px
 
 #table-footer{
   color:white;
+
 }
 
 .btn-outline-success {
@@ -138,4 +143,8 @@ ul li:hover > ul, ul li ul:hover {
   height: 35px;
   width: 445px;
   padding: 0 10px;
+}
+
+.product{
+text-align: center;
 }
